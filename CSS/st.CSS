@@ -61,14 +61,8 @@ img {
 .logo {
     width: 52px;
     height: 42px;
-
 }
-.logo__pic {
 
-}
-.nav {
-
-}
 .nav__list {
     display: flex;
 }
@@ -78,27 +72,50 @@ img {
 .nav__item:last-child {
     margin-right: 0;
 }
+
 .nav__link {
-
+    color: #FFFFFF;
 }
+
 .btn {
-
+    background: #F6762C;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14px;
+    border-radius: 5px;
+    padding: 15px 36px;
 }
+
 .hero__Content {
-
+    max-width: 49%;
+    padding-top: 186px;
 }
+
 .hero_info {
-
+    color: #FFFFFF;
 }
+
 .hero__headline {
-
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;     
 }
+
 .title {
-
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 1.18;
 }
+
+.hero__title{
+    margin-bottom: 30px;
+}
+
 .hero__br {
-
-}
-.hero__content {
-
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.17;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 42px;
 }
